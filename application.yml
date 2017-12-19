@@ -1,4 +1,9 @@
 spring:
+  profiles:
+    active: cloud
   cloud:
     sample:
-      msg: web-development
+      msg: hello
+  ribbon:
+    eureka:
+      enabled: true
