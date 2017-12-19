@@ -4,3 +4,5 @@ spring:
       server:
         git:
           uri: https://github.com/lanrebase/spring-config
+    sample:
+      msg: web-development
